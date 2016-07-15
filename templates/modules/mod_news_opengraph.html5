@@ -1,0 +1,7 @@
+<meta property="og:title" content="<?php echo $this->title; ?>">
+<meta property="og:description" content="<?php echo $this->description; ?>">
+<meta property="og:type" content="article">
+<meta property="og:url" content="<?php echo $this->url; ?>" >
+<?php if($this->image): ?>
+<meta property="og:image" content="<?php echo $this->image; ?>">
+<?php endif; ?>

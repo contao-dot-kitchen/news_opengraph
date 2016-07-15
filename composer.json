@@ -1,0 +1,35 @@
+{
+    "name":"sascha-brandhoff/news_opengraph",
+    "description":"Fügt beim Aufruf des News-Reader Moduls in Contao die OpenGraph-Tags im Header hinzu. Zusätzlich kann man ein individuelles News-Bild für OpenGraph wählen.",
+    "keywords":["contao", "news", "opengraph"],
+    "type":"contao-module",
+    "homepage":"http://contao.kitchen/de/opengraph-fuer-nachrichten.html",
+    "license":"LGPLv3",
+    "authors":[
+	{
+	    "name":"Sascha Brandhoff",
+	    "email":"sascha.brandhoff@gmail.com",
+	    "homepage":"https://www.paypal.me/pixelSpreadde",
+	    "role":"Developer"
+	}
+    ],
+    "support":{
+	"email":"sascha.brandhoff@gmail.com",
+	"issues":"https://github.com/Sascha-Brandhoff/news_opengraph/issues",
+	"source":"https://github.com/Sascha-Brandhoff/news_opengraph"
+    },
+    "require":{
+	"php":">=5.3",
+	"contao/core": ">=3.4,<3.6"
+    },
+    "replace":{
+	"sascha-brandhoff/news_opengraph":"self.version"
+    },
+    "extra":{
+	"contao":{
+	    "sources":{
+		"":"system/modules/news_opengraph"
+	    }
+	}
+    }
+}
